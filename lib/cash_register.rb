@@ -18,6 +18,6 @@ class CashRegister
     self.discount==0?"There is no discount to apply.":"After the discount, the total comes to #{self.total}."
   end
 
-  def 
+  def
 
 end
