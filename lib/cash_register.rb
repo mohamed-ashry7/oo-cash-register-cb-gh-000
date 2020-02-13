@@ -29,7 +29,7 @@ class CashRegister
 
   def void_last_transaction
     self.total -= self.quantity*self.price
-    arr.pop(quantity)
+    self.items.pop(quantity)
     quantity = 0
   end
 
